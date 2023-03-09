@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" charset="utf-8"
+            src="scripts/code.js"></script>
+    <title>Opdracht 02</title>
+</head>
+<body>
+<p class="vraag">Waar wordt de event listener gekoppeld aan de slider?</p>
+<p class="antwoord"> In dit stukje code: <code>sliders[0].addEventListener("change", update);
+    sliders[0].addEventListener("input", update);</code></p>
+
+<p class="vraag">Waarom moeten we die op twee soorten events koppelen?</p>
+<p class="antwoord">Er moet niet alleen een cijfer aanpassen, je zult ook een string moeten opbouwen met
+de getallen van de sliders erin. Dit om de CSS te kunnen aanpassen</p>
+
+<p class="vraag"> In de CSS file wordt nergens een rode kleur opgegeven, waar wordt dan wel de rode kleur van
+    het blokje ingesteld?</p>
+<p class="antwoord">Deze wordt meegegeven in de .js file met de code: <code>colorDemos[0].style.backgroundColor="red";</code></p>
+
+<p class="vraag">Waarom schrijven we telkens sliders[0] en colorDemos[0] en niet gewoon sliders of
+    colorDemos?</p>
+<p class="antwoord">Omdat als je .getElementsByClassName gebruikt je een array aanmaakt omdat je meerdere elementen
+selecteerd en niet 1 element. Door de brackets [0] vraag je het eerste element op. </p>
+
+</body>
+</html>

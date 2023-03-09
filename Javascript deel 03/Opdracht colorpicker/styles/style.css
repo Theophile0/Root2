@@ -1,0 +1,27 @@
+.colorpicker{
+    display: grid;
+    width: 400px;
+    grid-template-columns: 1fr 100px 100px;
+    border: 3px grey solid;
+    border-radius: 10px;
+    text-align: left;
+}
+.slider{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.text p{
+    margin:5px;
+}
+div#color{
+    border: black 2px solid;
+    margin: 10px;
+    border-radius: 10px;
+}
+.sliders p{
+    display: inline;
+}
+.text p {
+    display: inline;
+}
+
