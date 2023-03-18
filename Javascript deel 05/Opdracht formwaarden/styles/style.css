@@ -1,0 +1,18 @@
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 3px;
+}
+.error {
+    border: 1px solid red;
+    margin-left: 5px;
+    padding: 2px;
+    border-radius: 3px;
+    color: red;
+    font-size: 0.8em;
+}
