@@ -14,8 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -39,7 +39,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/theop/OneDrive - Hogeschool VIVES/VIVES/SEM2/WEB DEV/Root2/Javascript deel 05&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/theop/OneDrive - Hogeschool VIVES/VIVES/SEM2/WEB DEV/Root2/Javascript deel 06&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -51,16 +51,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2\Javascript deel 06" />
+      <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2\Javascript deel 06\Extra oefeningen Nodes" />
       <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2\Javascript deel 05" />
       <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2\Javascript deel 02" />
       <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2" />
-      <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2\Javascript deel 02\Arrays" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2\Javascript deel 06\Extra oefeningen Nodes\Opdracht 2\pictures" />
+      <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2\Javascript deel 06\Opdracht textNodes" />
       <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2\Javascript deel 05" />
       <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2\Javascript deel 03\Opdracht03\pictures" />
       <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2" />
-      <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2\Javascript deel 02\Arrays" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -81,6 +83,8 @@
       <workItem from="1678912890494" duration="12658000" />
       <workItem from="1679127996003" duration="7000" />
       <workItem from="1679130584171" duration="11425000" />
+      <workItem from="1679471171141" duration="9432000" />
+      <workItem from="1679592874870" duration="5935000" />
     </task>
     <servers />
   </component>
