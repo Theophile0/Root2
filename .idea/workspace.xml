@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10cedfed-67ae-4786-ac58-bd7606164003" name="Changes" comment="tree" />
+    <list default="true" id="10cedfed-67ae-4786-ac58-bd7606164003" name="Changes" comment="Hit an object" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -58,11 +58,11 @@
       <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2\Javascript deel 07\memory\pictures" />
+      <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2\Javascript deel 07\demos" />
+      <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2\Javascript deel 07" />
       <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2\Javascript deel 06\Extra oefeningen Nodes\Opdracht 2\pictures" />
       <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2\Javascript deel 06\Opdracht textNodes" />
-      <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2\Javascript deel 05" />
-      <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2\Javascript deel 03\Opdracht03\pictures" />
-      <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -84,7 +84,11 @@
       <workItem from="1679127996003" duration="7000" />
       <workItem from="1679130584171" duration="11425000" />
       <workItem from="1679471171141" duration="9432000" />
-      <workItem from="1679592874870" duration="5935000" />
+      <workItem from="1679592874870" duration="6024000" />
+      <workItem from="1679942731201" duration="13000" />
+      <workItem from="1680072461378" duration="10263000" />
+      <workItem from="1680178110414" duration="8969000" />
+      <workItem from="1680282543359" duration="975000" />
     </task>
     <servers />
   </component>

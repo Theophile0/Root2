@@ -1,0 +1,12 @@
+#playField{
+    height: 600px;
+    /*de height en width waarden heb ik omgedraaid anders moest je scrollen om de afbeelding te zien*/
+    /*en dit is niet user friendly.*/
+    width: 800px;
+    border: 1px solid black;
+}
+
+
+#target {
+    position: absolute;
+}
