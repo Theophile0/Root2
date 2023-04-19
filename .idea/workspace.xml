@@ -13,9 +13,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -58,11 +58,11 @@
       <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2\Javascript deel 08\invulformulierUitbreiding" />
       <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2\Javascript deel 07\memory\pictures" />
       <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2\Javascript deel 07\demos" />
       <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2\Javascript deel 07" />
       <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2\Javascript deel 06\Extra oefeningen Nodes\Opdracht 2\pictures" />
-      <recent name="C:\Users\theop\OneDrive - Hogeschool VIVES\VIVES\SEM2\WEB DEV\Root2\Javascript deel 06\Opdracht textNodes" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -89,6 +89,8 @@
       <workItem from="1680072461378" duration="10263000" />
       <workItem from="1680178110414" duration="8969000" />
       <workItem from="1680282543359" duration="975000" />
+      <workItem from="1681722829359" duration="1280000" />
+      <workItem from="1681888682867" duration="14074000" />
     </task>
     <servers />
   </component>
