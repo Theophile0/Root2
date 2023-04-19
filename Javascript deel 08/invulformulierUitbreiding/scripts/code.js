@@ -6,7 +6,7 @@ const bewaarBewerktePersoon = () => {
     console.log("Klik op de knop bewaar");
 
     // valideer alle input data en controleer of er geen errors meer zijn
-    if(valideer()) {
+    if (valideer()) {
         // indien ok, bewaar de ingegeven data.
         // een nieuw aangemaakte persoon voegen we toe
         // een bestaande persoon in de lijst passen we aan
@@ -16,15 +16,15 @@ const bewaarBewerktePersoon = () => {
         let email = document.getElementById("txtEmail").value;
         let aantalKinderen = document.getElementById("txtAantalKinderen").value;
 
-        persoon = {
-            index: personen.length,
+        let persoon = {
             voornaam: voornaam,
             familienaam: familienaam,
             geboortedatum: geboortedatum,
             email: email,
             aantalKinderen: aantalKinderen
         }
-        if(nogGeenPersoon(persoon)) {
+        if (nogGeenPersoon(persoon)) {
+            persoon.index = personen.length;
             personen.push(persoon);
         }
         updatePersList()
