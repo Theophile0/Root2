@@ -51,6 +51,7 @@ const bewerkNieuwePersoon = () => {
     let email = document.getElementById("txtEmail").value = "";
     let aantalKinderen = document.getElementById("txtAantalKinderen").value = "";
     clearAllErrors();
+    lstPersonen.selectedIndex = -1;
     // Zet de user interface klaar om de gegevens van een nieuwe persoon in te voeren
 };
 
@@ -65,6 +66,7 @@ const updatePersList = () => {
         option.setAttribute('id', i);
         lstPersonen.appendChild(option);
     }
+    lstPersonen.selectedIndex = personen.length -1;
 }
 const inladen = (e) => {
     let option = e.target;
