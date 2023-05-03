@@ -17,7 +17,7 @@ const update = () => {
 	console.log("de waarde van de slider is momenteel : "+value);
 }
 
-// dit is de eerste regel code die uitgevoerd wordt,
+// dit is de eerste regel scripts die uitgevoerd wordt,
 // de bovenstaande functie declaraties introduceren
 // enkel de functies en voeren ze niet uit natuurlijk.
 //

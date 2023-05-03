@@ -1,0 +1,37 @@
+body{
+    width: 1000px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#goButton {
+    text-align: center;
+    color: white;
+    background-color: green;
+    width: 100%;
+    height: 40px;
+    font-size: 30px;
+    border: green solid 2px;
+    border-radius: 3px;
+}
+#commandoline{
+    width: calc(100% - 10px);
+
+    border-radius: 3px;
+    border: solid black 2px;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+#commandoline:hover{
+    border: lightblue;
+}
+p{
+    margin-top: 0;
+}
+.card{
+    padding: 10px;
+}
+.row{
+    margin-bottom: 20px;
+}

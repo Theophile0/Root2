@@ -11,7 +11,7 @@ const valideerVoornaam = () => {
 	let txtVoornaam = document.getElementById("txtVoornaam");
 	let errVoornaam = document.getElementById("errVoornaam");
 	let voornaam = txtVoornaam.value.trim();
-	// we zullen op heel veel plaatsen in de code iets gelijkaardigs moeten doen om
+	// we zullen op heel veel plaatsen in de scripts iets gelijkaardigs moeten doen om
 	// een fout te melden of een eerdere foutmelding te verwijderen. We zouden dit
 	// dus best in twee functies afsplitsen : reportError en clearError.
 	if (voornaam.length > 30) {

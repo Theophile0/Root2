@@ -12,8 +12,9 @@ const setup = () => {
     for (let i = 0; i <slider.length ; i++) {
         slider[i].addEventListener("change", update);
         slider[i].addEventListener("input", update);
+        slider[i].value = 0;
     }
-    color.style.backgroundColor="rgb(0,0,0)"
+    color.style.backgroundColor="rgb(0,0,0)";
 
     slider[0].value = localStorage.getItem("Rood");
     slider[1].value = localStorage.getItem("Groen");
@@ -53,7 +54,7 @@ const update = () => {
     global.blauw = values[2];
     localStorage.setItem('Blauw', global.blauw);
 
-    let rgb = `rgb(${values[0]}, ${values[1]}, ${values[2]})`
+    let rgb = `rgb(${values[0]}, ${values[1]}, ${values[2]})`;
     color.style.backgroundColor = rgb;
 
     return rgb;

@@ -10,7 +10,7 @@ const valideer = () => {
 const valideerVoornaam = () => {
     // We gebruiken een CSS-selector om het tekstveld uit de DOM-tree op te pikken.
     // Het is dus niet nodig om dat input element een id te geven, toch niet omwille
-    // van de javascript code (voor de usability beter wel, nml. voor het for attribuut
+    // van de javascript scripts (voor de usability beter wel, nml. voor het for attribuut
     // van het bijbehorende label, als je nu op het label klikt komt de cursor niet
     // meer vanzelf in het tekstveld terecht).
 	let txtVoornaam = document.querySelector("#voornaam>input");
