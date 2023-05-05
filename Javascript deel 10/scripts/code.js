@@ -2,15 +2,21 @@ let history = [];
 const setup = () => {
     let button = document.getElementById("goButton");
     button.addEventListener("click", go);
-
+    if(history !== null)
+    {
         makeCard();
+    }
 }
+//Omdat er een leeg object is kan deze niet opgeroepen worden.
+//Schrijf een if- statement om te controleren of history leeg is of niet.
 const go = () => {
   let commandoLine = document.getElementById("commandoline");
   command = commandoLine.value;
   command.value = "";
     let link = "";
-    let blokje = {};
+    let blokje = {
+        title: ""
+    };
     switch (command.slice(0,2)){
         case "/g":
             link = "http://www.google.com/search?q=";
@@ -45,44 +51,50 @@ const updateHistory = () => {
 }
 const makeCard = () => {
     history = JSON.parse(localStorage.getItem('history'));
+    if(history === null)
+    {
+        history = [];
+    }
     let row = null;
     let container = document.getElementById('super');
     container.innerHTML = '';
-    for (let i = 0; i < history.length; i++) {
+    if(history !== null) {
+        for (let i = 0; i < history.length; i++) {
 
-        let kaart = document.createElement('div');
-        let h1 = document.createElement('h3');
-        let p = document.createElement('p');
-        let a = document.createElement("a");
-        let wrapper = document.createElement('div');
+            let kaart = document.createElement('div');
+            let h1 = document.createElement('h3');
+            let p = document.createElement('p');
+            let a = document.createElement("a");
+            let wrapper = document.createElement('div');
 
-        h1.appendChild(document.createTextNode(history[i].title));
-        p.appendChild(document.createTextNode(history[i].text));
-        a.appendChild(document.createTextNode("GO!"));
+            h1.appendChild(document.createTextNode(history[i].title));
+            p.appendChild(document.createTextNode(history[i].text));
+            a.appendChild(document.createTextNode("GO!"));
 
-        kaart.className = 'col  card text-white'
-        kaart.style.backgroundColor = getBackgroundColor(i);
-        h1.className = 'card-title';
-        p.className = 'card-text';
-        a.setAttribute('href', history[i].url);
-        a.className = 'btn btn-sm text-white';
-        a.style.backgroundColor = getButtonBackgroundColor(i);
-        wrapper.className = 'col-4'
+            kaart.className = 'col  card text-white'
+            kaart.style.backgroundColor = getBackgroundColor(i);
+            h1.className = 'card-title';
+            p.className = 'card-text';
+            a.setAttribute('href', history[i].url);
+            a.className = 'btn btn-sm text-white';
+            a.style.backgroundColor = getButtonBackgroundColor(i);
+            wrapper.className = 'col-4'
 
 
-        if((i%3) === 0 ){
-            // wrapper nieuwe row toevoegen.
-            // toevoegen aan parent container.
-            // div hier toevoegen.
-            row = document.createElement('div');
-            row.setAttribute('class', 'row');
-            container.appendChild(row);
+            if ((i % 3) === 0) {
+                // wrapper nieuwe row toevoegen.
+                // toevoegen aan parent container.
+                // div hier toevoegen.
+                row = document.createElement('div');
+                row.setAttribute('class', 'row');
+                container.appendChild(row);
+            }
+            kaart.appendChild(h1);
+            kaart.appendChild(p);
+            kaart.appendChild(a);
+            wrapper.appendChild(kaart);
+            row.appendChild(wrapper);
         }
-        kaart.appendChild(h1);
-        kaart.appendChild(p);
-        kaart.appendChild(a);
-        wrapper.appendChild(kaart);
-        row.appendChild(wrapper);
     }
 }
 const getBackgroundColor = (historyItem) => {
